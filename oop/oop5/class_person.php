@@ -1,8 +1,9 @@
-<?php
-  class Person{
-      public $nama;
-      public $gender;
-      public $tgl_lahir;
-      public $tmp_lahir;
-  }
+<?php 
+class Person{
+    public $nama;
+    public $gender;
+    public $tmp_lahir;
+    public $tgl_lahir;
+}
+
 ?>

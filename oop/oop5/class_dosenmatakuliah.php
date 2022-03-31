@@ -9,9 +9,9 @@ class DosenMatakuliah{
     public $hari;
     public $ruangan;
 
-    function __construct($dosen,$matakuliah){
+    function __construct($dosen,$matakuliah,$semester){
         $this->dosen = $dosen;
         $this->matakuliah = $matakuliah;
+        $this->semester = $semester;
     }
-
 }
